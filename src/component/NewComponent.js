@@ -2,7 +2,9 @@ import React from 'react'
 
 const NewComponent = () => {
   return (
-    <div>NewComponent</div>
+    <div>
+      <p>This is my github session</p>
+    </div>
   )
 }
 
