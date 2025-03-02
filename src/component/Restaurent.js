@@ -3,6 +3,7 @@ import Menu from './Menuapi'
 import Menucard from './Menucard'
 import './style.css'
 import Navbar from './Navbar'
+import NewComponent from './NewComponent'
 
 
 const uniqueList=[
@@ -33,6 +34,7 @@ const Restaurent = () => {
     <div>
       <Navbar filterItem={filterItem} menulist={menulist}/>
       <Menucard menudata={menudata}/>
+      <NewComponent/>
     </div>
   )
 }
